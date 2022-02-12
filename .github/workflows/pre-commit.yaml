@@ -6,7 +6,7 @@ on:
       - ready_for_review
       - review_requested
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   pre-commit:
